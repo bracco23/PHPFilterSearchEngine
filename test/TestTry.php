@@ -1,11 +1,11 @@
-<?php 
-
-require_once(__DIR__."/../vendor/autoload.php");
+<?php
 
 use PHPUnit\Framework\TestCase;
 
-class InitialTest extends TestCase{
-    function testPrintSomething(){
+class InitialTest extends TestCase
+{
+    public function testPrintSomething()
+    {
         print "test";
         $this->assertEquals(true, true);
     }
