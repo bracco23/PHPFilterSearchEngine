@@ -12,9 +12,14 @@
         "phpunit/phpunit": "^6"
     },
     "scripts": {
-        "test": "phpunit --testdox ./test/*"
+        "test": "phpunit ./test/*"
     },
     "scripts-descriptions": {
         "test": "Run unit tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "bracco23\\": "src/bracco23/"
+        }
     }
 }
